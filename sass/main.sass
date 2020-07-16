@@ -1,0 +1,148 @@
+@import url(../css/fonts.css)
+@import variables.sass
+
+.container
+    max-width: 905px
+header
+    background: url(../img/bg.png)
+    padding-top: 20px
+    position: relative
+.social
+    margin-left: 8%
+    .social-item
+        a
+            display: block
+            width: 25px
+            height: 25px
+            padding-top: 4px    
+            margin: 3px
+            background-color: $main-color
+            opacity: .6
+            color: $white
+            border-radius: 50%
+            &:hover
+                color: $main-color
+                background-color: $white
+.navbar-nav
+    .nav-item
+        margin: 10px
+        a
+            font: 16px $menu-font
+            text-decoration: none
+            padding: 3px
+            text-transform: uppercase
+            color: $main-color
+            &:hover
+                color: $menu-active   
+h2
+    margin-top: 93px
+    text-align: center
+    font: 53px $mainhead-font
+    letter-spacing: -1.11px
+    line-height: 61.11px
+    color: $main-color
+    text-shadow: 0 2px 0 rgba(255,255,255,.49)
+.btn
+    position: relative
+    padding-bottom: 42px
+    left: -25px
+    img
+        z-index: -1
+    .registry
+        position: absolute 
+        font: 26px $mainhead-font
+        color: $white
+        top: 23%
+        margin-left: -30%
+        text-decoration: none
+        &:hover
+            color: $black
+
+#main
+    padding-top: 40px
+    padding-bottom: 60px
+    .description
+        margin: 0 auto
+        width: 75%
+        font: 15px $text-font
+        color: $main-color
+        text-align: left
+        margin-bottom: 32px
+        span
+            font-weight: bold
+    h3
+        font: 19px $head-font
+        text-transform: uppercase
+        text-align: center
+        letter-spacing: 8.94px
+        color: $main-color
+        margin-bottom: 39px
+        position: relative
+        &::after
+            position: absolute
+            content: ''
+            display: block
+            width: 100%
+            height: 1px
+            color: $main-color
+            background-color: $main-color
+            margin-top: 12px
+            opacity: .5
+    .courses-item
+        margin: 10px 0 
+    .course-head
+        padding: 0
+        margin: 0
+        font: 28px $head-font
+        color: $head-color
+    p
+        font: 13px $text-font
+        line-height: 18.06px
+        color: $main-color    
+.our-sponsors
+    width: 30%
+    .sponsor-head
+        font: 600 17px $main-font
+        text-transform: uppercase
+        text-align: center
+        line-height: 27.78px
+        letter-spacing: 7.67px
+        color: $main-color
+        position: relative
+        margin: 0 0 15px 0
+        &::after
+            position: absolute
+            content: ''
+            display: block
+            width: 100%
+            height: 1px
+            color: $main-color
+            background-color: $main-color
+            margin-top: 8px
+            opacity: .5
+    ul
+        margin-top: 25px
+        li
+            margin: 5px
+            a
+                display: block
+                text-decoration: none
+                padding: 5px
+                &:hover
+                    color: $black
+                    background-color: $menu-active
+                    border-radius: 10px
+footer
+    margin-top: 60px            
+.nav-item
+    a
+        text-decoration: none
+        font: 11px $main-font
+        color: $main-color
+        text-transform: uppercase
+        &:hover
+            color: $menu-active
+    .copyright
+        font: 11px $text-font
+        color: $main-color
+        opacity: .6
